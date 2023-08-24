@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: red;
+            border: 5px solid grey;
+             display:inline-block; 
+            width: 100px;
+            height: 100px;
+            margin-left: 100px; 
+            /* margin-right: 10px; */
+                                 /* want to change default behaviour of p which is taken full width and height  */
+                                 /* if yu are commenting diplay:inline then width and height  applied bcz bydefault display is block it will provide support
+                                   for increase/decrease width and height */
+       
+       
+                                }
+
+        span {
+            background-color: yellowgreen;
+            border: 5px solid grey;
+            width: 100px;
+            height: 100px;      
+                                /* It will not take width and height in span bcz dispaly by defualt is inline so its occupy  */
+                                      /* the required space. even if u applied additionally not used.  */
+                                
+              /* display:block                        now changed behaviour of span with display=block now span will become paragraph. it will allowed height and width  */
+        }
+
+        a {
+            background-color: aqua;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>I am Para</p>
+    <p>I am another Para</p>
+    <span>I am Span</span>
+    <span>I am another Span</span>
+    <img src="download.jpg" alt="">
+    <a href="#">I am groot</a>
+
+
+</body>
+
+
+</html>
+
+  <!-- Display Propperty -->
+
+  <!-- 1)Inline:-  inline element come side by side ,we cant set height and width  -->
+  <!-- 2)Block:     takes whole width and doesnot allow other element to come inside and we can set  height adn width  -->
+  <!-- 3)inline-block:  combinations of inline and block ,allow other element to come side by side and we can set height and width  -->
